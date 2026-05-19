@@ -41,7 +41,6 @@ def process_grades(records: list[str]) -> dict:
 
     for record in records:
         try:
-            1 / 0
             data = record.split(': ')
 
             # Если длина списка не 2 или
